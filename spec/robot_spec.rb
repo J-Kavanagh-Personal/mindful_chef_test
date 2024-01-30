@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rspec'
+require_relative '../lib/robot'
 
 RSpec.describe Robot do
   subject { described_class.new(starting_position: starting_position, warehouse: warehouse) }
