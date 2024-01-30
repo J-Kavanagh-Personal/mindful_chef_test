@@ -21,6 +21,7 @@ class Robot
     return if commands.nil?
 
     commands.split(',').each { |command| single_command(command: command) }
+    true
   end
 
   private
